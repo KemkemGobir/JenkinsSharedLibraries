@@ -1,4 +1,4 @@
-def call(string mavengoal){
+def call (string mavengoal){
   if ("${mavengoal}"=="Build")
   {
     sh "mvn clean package"
