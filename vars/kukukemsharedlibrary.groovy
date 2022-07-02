@@ -1,5 +1,5 @@
 def call (string nodejsgoal){
-  if ("$ {nodejsgoal}" == "Build") 
+  if ("${nodejsgoal}" == "Build") 
   {
     sh "echo Building Application"
     sh "npm install"
