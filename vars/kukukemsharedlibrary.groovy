@@ -3,7 +3,7 @@ def call (string nodejsgoal){
   {
     sh "npm install"
   }
-  else if ("${nodejsgoal}" == "Test"
+  else if ("${nodejsgoal}" == "Test")
            {
              sh "npm run sonar"
            }
