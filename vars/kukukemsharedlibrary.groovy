@@ -1,4 +1,4 @@
-def call (string nodejsgoal){
+def call (String nodejsgoal){
   if ("${nodejsgoal}" == "Build") 
   {
     sh "npm install"
